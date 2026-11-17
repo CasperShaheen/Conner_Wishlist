@@ -4,7 +4,7 @@
 }
 
 body {
-  background: linear-gradient(#A256564F, #3B325570), url("/profile.jpeg");
+  background: linear-gradient(#A256564F, #3B325570), url("./profile.jpeg");
   background-size: 100vh;
 }
 
@@ -14,7 +14,7 @@ nav {
   align-items: center;
   padding-top: 15vh;
   padding-bottom: 0.8rem;
-  background: linear-gradient(#A256564F, #3B325570), url("/profile.jpeg");
+  background:  url("./profile.jpeg");
   background-size: 100vw;
   background-attachment: fixed;
   
