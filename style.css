@@ -6,6 +6,7 @@
 body {
   background: linear-gradient(#A256564F, #3B325570), url("./profile.jpeg");
   background-size: cover;
+  font-family: "Montserrat", sans-serif;
 }
 
 nav {
@@ -18,7 +19,7 @@ nav {
   background-size: 100vw;
   background-attachment: fixed;
     border-radius: 25%;
-    margin: 3rem;
+    margin: 3rem
 
 }
 
@@ -30,6 +31,10 @@ nav img {
 }
 
 nav h1 {
+  color: white;
+}
+
+nav p {
   padding-bottom: 3rem;
   color: white;
 }
@@ -53,7 +58,11 @@ nav h1 {
   padding: 1.4rem;
   color: white;
 }
-
+#wishlist img {
+  height: 2rem;
+  border-radius: 100%;
+  margin-right: 1rem;
+}
 a {
   text-decoration: none;
   color: black;
@@ -61,7 +70,10 @@ a {
 }
 
 #wishlist ul li {
-  text-align: center;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background: rgba(158, 179, 206, 0.4);
   padding: 1rem;
   font-weight: bold;
