@@ -5,7 +5,7 @@
 
 body {
   background: linear-gradient(#A256564F, #3B325570), url("./profile.jpeg");
-  background-size: 100vh;
+  background-size: cover;
 }
 
 nav {
@@ -14,10 +14,12 @@ nav {
   align-items: center;
   padding-top: 15vh;
   padding-bottom: 0.8rem;
-  background:  url("./profile.jpeg");
+  background:  linear-gradient(to left, #150E2AA8, #664B3C36), url("./profile.jpeg");
   background-size: 100vw;
   background-attachment: fixed;
-  
+    border-radius: 25%;
+    margin: 3rem;
+
 }
 
 
